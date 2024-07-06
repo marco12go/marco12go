@@ -1,0 +1,232 @@
+24/05/08 18:36:04
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.systemShutdown(ShutdownThread.java:271)
+	at com.android.server.BatteryService$18.run(BatteryService.java:2405)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at com.android.server.SystemServer.run(SystemServer.java:1333)
+	at com.android.server.SystemServer.main(SystemServer.java:985)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:608)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+18:36:20  2024-05-08 18:36:20-0700 | SHUTDOWN |       | REASON: no power [-]
+18:36:20  terminating init service start
+18:36:23  terminating init service end
+18:36:23  volume shutdown start
+18:36:23  volume shutdown end
+18:36:23  sync() before umount...
+18:36:23  sync() before umount took
+18:36:23  zram start
+18:36:24  zram end
+18:36:26  TryUmountAndFsck start
+2024-05-08 18:44:22-0700 |          | NP    |  /  / 3494mV (0%) 
+
+2024-05-08 18:44:22-0700 |   LPM    |
+
+2024-05-08 18:56:23-0700 |    ON    | NP    | G991USQSAFXD4 
+
+24/05/08 18:56:34
+reason :  (uid: 1000 pid: 3343 processName: com.android.settings)
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:429)
+	at com.android.server.power.PowerManagerService$3.run(PowerManagerService.java:5940)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+	at com.android.server.UiThread.run(UiThread.java:52)
+18:56:50  2024-05-08 18:56:50-0700 |  REBOOT  |       | REASON:  (uid: 1000 pid: 3343 processName: com.android.settings) [-]
+18:56:50  terminating init service start
+18:56:54  terminating init service end
+18:56:54  volume shutdown start
+18:56:54  volume shutdown end
+18:56:54  sync() before umount...
+18:56:54  sync() before umount took
+18:56:54  zram start
+18:56:54  zram end
+18:56:56  TryUmountAndFsck start
+2024-05-09 00:21:24-0700 |    ON    | NP    | G991USQSAFXD4 
+
+2024-05-09 10:29:15-0700 | PLATFORM | PF_SR | G991USQSAFXD4 / android.ui 
+
+24/05/09 12:57:31
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.systemShutdown(ShutdownThread.java:271)
+	at com.android.server.BatteryService$18.run(BatteryService.java:2405)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at com.android.server.SystemServer.run(SystemServer.java:1333)
+	at com.android.server.SystemServer.main(SystemServer.java:985)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:608)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+12:57:35  2024-05-09 12:57:35-0700 | SHUTDOWN |       | REASON: no power [-]
+12:57:35  terminating init service start
+12:57:38  terminating init service end
+12:57:38  volume shutdown start
+12:57:38  volume shutdown end
+12:57:38  sync() before umount...
+12:57:38  sync() before umount took
+12:57:38  zram start
+12:57:39  zram end
+12:57:41  TryUmountAndFsck start
+24/05/09 22:42:40
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.systemShutdown(ShutdownThread.java:271)
+	at com.android.server.BatteryService$18.run(BatteryService.java:2405)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at com.android.server.SystemServer.run(SystemServer.java:1333)
+	at com.android.server.SystemServer.main(SystemServer.java:985)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:608)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+22:42:49  2024-05-09 22:42:49-0700 | SHUTDOWN |       | REASON: no power [-]
+22:42:49  terminating init service start
+22:42:52  terminating init service end
+22:42:52  volume shutdown start
+22:42:52  volume shutdown end
+22:42:52  sync() before umount...
+22:42:52  sync() before umount took
+22:42:52  zram start
+22:42:52  zram end
+22:42:54  TryUmountAndFsck start
+2024-05-09 22:45:31-0700 |          | NP    |  /  / 3766mV (0%) 
+
+2024-05-09 22:45:31-0700 |   LPM    |
+
+2024-05-09 22:59:54-0700 |    ON    | NP    | G991USQSAFXD4 
+
+2024-05-10 10:34:48-0700 | PLATFORM | PF_SR | G991USQSAFXD4 / android.ui 
+
+24/05/11 10:19:43
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.systemShutdown(ShutdownThread.java:271)
+	at com.android.server.BatteryService$18.run(BatteryService.java:2405)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at com.android.server.SystemServer.run(SystemServer.java:1333)
+	at com.android.server.SystemServer.main(SystemServer.java:985)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:608)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+10:19:46  2024-05-11 10:19:46-0700 | SHUTDOWN |       | REASON: no power [-]
+10:19:47  terminating init service start
+10:19:50  terminating init service end
+10:19:50  volume shutdown start
+10:19:50  volume shutdown end
+10:19:50  sync() before umount...
+10:19:50  sync() before umount took
+10:19:50  zram start
+10:19:50  zram end
+10:19:52  TryUmountAndFsck start
+2024-05-12 10:22:24-0700 |          | NP    |  /  / 3713mV (0%) 
+
+2024-05-12 10:22:24-0700 |   LPM    |
+
+2024-05-12 10:55:19-0700 |    ON    | NP    | G991USQSAFXD4 
+
+24/05/12 12:00:11
+reason : [SecSettings]Block AT Commands
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.reboot(ShutdownThread.java:429)
+	at com.android.server.power.PowerManagerService$3.run(PowerManagerService.java:5940)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+	at com.android.server.UiThread.run(UiThread.java:52)
+12:00:14  2024-05-12 12:00:14-0700 |  REBOOT  |       | REASON: [SecSettings]Block AT Commands [-]
+12:00:14  terminating init service start
+12:00:18  terminating init service end
+12:00:18  volume shutdown start
+12:00:18  volume shutdown end
+12:00:18  sync() before umount...
+12:00:18  sync() before umount took
+12:00:18  zram start
+12:00:18  zram end
+12:00:20  TryUmountAndFsck start
+2024-05-12 12:01:20-0700 |    ON    | NP    | G991USQSAFXD4 
+
+24/05/12 17:02:30
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.systemShutdown(ShutdownThread.java:271)
+	at com.android.server.BatteryService$18.run(BatteryService.java:2405)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at com.android.server.SystemServer.run(SystemServer.java:1333)
+	at com.android.server.SystemServer.main(SystemServer.java:985)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:608)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+17:02:33  2024-05-12 17:02:33-0700 | SHUTDOWN |       | REASON: no power [-]
+17:02:33  terminating init service start
+17:02:36  terminating init service end
+17:02:36  volume shutdown start
+17:02:36  volume shutdown end
+17:02:36  sync() before umount...
+17:02:36  sync() before umount took
+17:02:36  zram start
+17:02:37  zram end
+17:02:39  TryUmountAndFsck start
+2024-05-15 21:54:49-0700 |          | NP    |  /  / 3664mV (0%) 
+
+2024-05-15 21:54:49-0700 |   LPM    |
+
+2024-05-15 22:40:25-0700 |    ON    | NP    | G991USQSAFXD4 
+
+24/05/16 00:29:01
+reason : userrequested
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(ShutdownThread.java:329)
+	at com.android.server.power.ShutdownThread.shutdown(ShutdownThread.java:236)
+	at com.android.server.statusbar.StatusBarManagerService.lambda$shutdown$4(StatusBarManagerService.java:2298)
+	at com.android.server.statusbar.StatusBarManagerService.$r8$lambda$2ndFA8HNezCsgX2sySFgr4QHJWQ(StatusBarManagerService.java:0)
+	at com.android.server.statusbar.StatusBarManagerService$$ExternalSyntheticLambda6.run(R8$$SyntheticClass:0)
+	at android.os.Handler.handleCallback(Handler.java:958)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:230)
+	at android.os.Looper.loop(Looper.java:319)
+	at com.android.server.SystemServer.run(SystemServer.java:1333)
+	at com.android.server.SystemServer.main(SystemServer.java:985)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:608)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+00:29:06  2024-05-16 00:29:06-0700 | SHUTDOWN |       | REASON: userrequested [-]
+00:29:06  terminating init service start
+00:29:09  terminating init service end
+00:29:09  volume shutdown start
+00:29:09  volume shutdown end
+00:29:09  sync() before umount...
+00:29:09  sync() before umount took
+00:29:09  zram start
+00:29:10  zram end
+00:29:12  TryUmountAndFsck start
+2024-05-16 22:29:28-0700 |    ON    | NP    | G991USQSAFXD4 
+
